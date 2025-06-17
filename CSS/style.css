@@ -1,0 +1,101 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  color: darkmagenta;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#intro {
+  width: 30%;
+  margin: auto;
+  position: relative;
+}
+
+p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+ul {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  list-style-position: inside;
+}
+
+#user-input {
+  width: 40%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#instruction {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin: auto;
+}
+
+#userChoice {
+  display: inline-block;
+  margin: auto;
+}
+
+.buttons {
+  display: inline-block;
+  margin: auto;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-reminder {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+#show-numbers {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#output {
+  width: 40%;
+  margin: auto;
+  position: relative;
+  display: none;
+}
+
+#output-text {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#output-text span {
+  color: red;
+}

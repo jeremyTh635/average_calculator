@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Average</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+  </head>
+  <body>
+    <h1>Calculate the Average</h1>
+
+    <!-- Instructions for user -->
+    <h2>Read me first</h2>
+    <div id="intro">
+      <p>Enter a series of numbers and then see the average of your numbers. To do so, type your number in the box and click Enter to enter it. Follow the prompts above the box.
+      Please note the following rules.</p>
+      <p>Please note the following rules.
+      </p>
+      <ul>
+        <li>You must enter at least 6 numbers.
+        </li>
+        <li>Each number should have at least 3 digits.
+        </li>
+        <li>Your numbers should not contain any zeros.</li>
+      </ul>
+      <p>When you are done, click the stop button and you will see your average displayed. You will also be able to display the numbers you entered.</p>
+    </div>
+
+    <!-- Form to get user input -->
+    <div id="user-input">
+      <form id="form">
+        <label for="name" id="instruction">Please enter a number</label>
+        <br><br>
+        <input type="text" id="userChoice">
+        <br><br>
+      <div class="buttons">
+        <button type="button" id="next">Enter</button>
+        <button type="button" id="finish">Stop</button>
+      </div><br><br>
+
+    <!-- Hidden button to show user's numbers once they've finished entering -->
+      <button type="button" id="showNos">See your Numbers</button>
+      </form>
+    </div>
+
+    <!-- Area to display user's numbers -->
+    <div id="user-reminder">
+      <p id="show-numbers"></p>
+    </div>
+
+    <!-- Area to display average of user's numbers -->
+    <div id="output">
+      <p id="output-text"></p>
+    </div>
+    <script type="text/javascript" src="../JS/calc_functionality.js"></script>
+    </script>
+  </body>
+</html>
